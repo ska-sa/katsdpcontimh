@@ -1,0 +1,14 @@
+version: "2.0"
+services:
+  katcontimh:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: katcontimh
+    image: sdp-docker-registry.kat.ac.za:5000/katsdpcontimh
+    network_mode: host
+    restart: "no"
+    hostname: katcontimh
+    volumes:
+      - /var/kat/archive2:/var/kat/archive2:ro
