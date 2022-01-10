@@ -1,3 +1,0 @@
-#!/home/richarms/src/katsdpcontimh/venv/bin/python
-from numba.pycc import main
-main()
