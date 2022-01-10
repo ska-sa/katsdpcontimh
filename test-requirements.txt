@@ -1,4 +1,5 @@
 -c https://raw.githubusercontent.com/ska-sa/katsdpdockerbase/master/docker-base-gpu-build/requirements.txt
 
+asynctest
 pytest
 pytest-cov
