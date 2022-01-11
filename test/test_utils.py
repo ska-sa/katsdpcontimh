@@ -16,9 +16,6 @@
 
 """Tests for :mod:`katsdpcontimh:util`"""
 
-import pytest
-import katsdpcontimh.qa_report
-    
+
 def test_dummy_test() -> None:
     assert(True)
-
