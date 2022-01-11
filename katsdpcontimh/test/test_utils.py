@@ -1,5 +1,5 @@
 ################################################################################
-# Copyright (c) 2021, National Research Foundation (SARAO)
+# Copyright (c) 2022, National Research Foundation (SARAO)
 #
 # Licensed under the BSD 3-Clause License (the "License"); you may not use
 # this file except in compliance with the License. You may obtain a copy
@@ -17,7 +17,7 @@
 """Tests for :mod:`katsdpcontimh:util`"""
 
 import pytest
-import katsdpcontimh
+import katsdpcontimh.qa_report
     
 def test_dummy_test() -> None:
     assert(True)
