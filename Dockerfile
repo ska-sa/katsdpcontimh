@@ -4,7 +4,8 @@ FROM $KATSDPDOCKERBASE_REGISTRY/docker-base-build as build
 
 USER root
 RUN apt-get update && \
-    apt-get install -y gnome-todo
+    apt-get install -y gnome-todo && \
+    apt-get install -y fftw3-dev
 
 # Switch to Python 3 environment
 USER kat
