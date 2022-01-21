@@ -4,7 +4,7 @@ FROM $KATSDPDOCKERBASE_REGISTRY/docker-base-build as build
 
 USER root
 RUN apt-get update && \
-    apt-get install -y gnome-todo && \
+    apt-get install -y gnome-todo
 
 # IDG
 RUN apt-get install -y libblas-dev liblapack-dev libboost-dev libcfitsio-dev libgsl-dev wcslib-dev casacore-dev git
