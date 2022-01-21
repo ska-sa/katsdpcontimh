@@ -16,7 +16,7 @@ RUN apt-get -y install wget git make cmake g++ doxygen \
     libboost-all-dev libhdf5-dev libfftw3-dev \
     libblas-dev liblapack-dev libgsl-dev libxml2-dev \
     libgtkmm-3.0-dev libpython3-dev python3-distutils && \
-    git clone git@git.astron.nl:RD/EveryBeam.git && cd EveryBeam && \
+    git clone --recursive -j4 https://git.astron.nl/RD/EveryBeam.git && cd EveryBeam && \
     mkdir build && cd build && \
     cmake -DCMAKE_INSTALL_PREFIX= .. && \
     make install
