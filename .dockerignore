@@ -12,3 +12,5 @@ __pycache__
 *.so
 doc/_build
 *.egg-info
+*.ms
+*.fits
