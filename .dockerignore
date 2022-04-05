@@ -6,11 +6,12 @@ htmlcov
 .coverage
 __pycache__
 .mypy_cache
-*.pyc
 *.pyo
 *.pyd
 *.so
 doc/_build
 *.egg-info
-*.ms
-*.fits
+
+**/*.fits
+**/*.ms
+**/*.pyc

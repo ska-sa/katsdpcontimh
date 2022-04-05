@@ -5,6 +5,7 @@ astropy
 dask
 numba
 numpy<1.21,>=1.17
+pre-commit==2.3.0
 pytest
 scipy
 typing-extensions
