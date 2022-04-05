@@ -18,4 +18,4 @@
 
 
 def test_dummy_test() -> None:
-    assert(True)
+    assert True
