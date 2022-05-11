@@ -2,10 +2,14 @@
 -d https://raw.githubusercontent.com/ska-sa/katsdpdockerbase/master/docker-base-gpu-build/requirements.txt
 
 astropy
+cfvg
 dask
+identify
+nodeenv
 numba
 numpy<1.21,>=1.18
 pre-commit==2.9.2
 pytest
 scipy
 typing-extensions
+virtualenv
